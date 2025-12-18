@@ -11,7 +11,7 @@ const Login = () => {
     event.preventDefault();
 
     try {
-      const req = await axios.post("http://localhost:8001/login", {
+      const req = await axios.post("https://secewinterintern2025-4.onrender.com/login", {
         email,
         password,
       });
